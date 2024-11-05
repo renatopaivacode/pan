@@ -1,0 +1,218 @@
+*{margin: 0px
+    ;}
+
+    @font-face {
+        font-family: 'android';
+        src: url(fontes/idroid.otf) format(opentype);
+        font-weight: normal;
+    }
+    :root{
+        --cor0: #ebe5c5;
+        --cor3:#83e1ad;
+        --cor5:#3ddc84;
+        --cor6:#063d1e;
+        --font-padrao: arial, verdana,  helvetica, sans-serif;
+        --font-destaque: ,'Bebas neve', 'cursive'; 
+        --android: "android";
+    }
+        
+    img{
+        width: 100%;
+        margin: auto;
+       
+    }
+
+body{ margin: auto; background-color: var(--cor3
+    ) } 
+    a.externo::after {
+        content: '\1f517';
+    }
+
+    picture{
+        max-width: 600px; 
+        min-width: 280px;
+
+    }
+    .menor{
+        max-width: 300px;
+         margin: auto;
+    display: block;
+    
+    }
+
+    video{width: 100%;}
+
+
+
+header{ margin:auto; background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
+    margin-bottom: 10px;
+
+min-height: 150px;
+padding-top: 30px;}
+
+
+header h1{  font-family: var(--android);
+
+}
+
+section h1 {
+    font-family: var(--android);
+    color:rgba(0, 0, 0, 0.604);
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    text-indent: 20px;
+}
+h2{
+    font-family: var(--android);
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    color: rgba(0, 0, 0, 0.619);
+}
+
+
+
+.mols{color: rgb(204, 208, 212); } 
+
+
+nav>a{display: inline-block;padding: 0px 25px 0px 0px;
+    padding: 10px;
+   color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.7s ;
+
+margin: 5px 5px;}
+
+nav> a:hover{ background-color: var(--cor5);
+    border-radius: 10px;
+
+color: #8ab49e;}
+
+
+
+header>h1{text-align: center;margin-bottom: 10px;
+padding-top: 5px;
+background-color: none;
+font-weight:300;
+}
+
+
+
+header>p{text-align: center; margin-bottom: 10px;}
+
+section{
+    margin:auto;
+    width: 100;
+}
+div.video{background-color: #063d1e; 
+margin: 0px -20px 30px 20px;
+padding: 10px; 
+padding-bottom: 50%;
+position: relative;}
+
+
+
+aside h3{color: white;
+background-color: green;
+display: block;
+border-radius: 15;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+   left: 5%;
+   width: 90%;
+    height: 90%;
+    }
+    
+
+main strong{color: #1d442d;}
+
+
+section a{text-decoration: none;
+color: var(--cor6);
+background-color: var(--cor3);
+
+font-weight: bolder;}
+section a:hover{
+    background-color: var(--cor0);
+    color: white;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+
+aside{background-color: rgb(134, 227, 216) ;
+    padding: 10px ;
+    border-radius: 10px ;
+    box-shadow:3px 3px 8px rgba(0, 0, 0, 0.403);
+
+}
+
+aside a{text-decoration: none;
+    color: var(--cor6);
+    background-color: var(--cor3);
+    font-weight: bolder; 
+}
+aside ul{
+    list-style-type:'\2728\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+    
+aside h3{color: white;
+    margin: -10px -10px 0px -10px;
+    padding: 10px;
+  
+    background-color: green;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+
+    }
+
+    aside a:hover{
+        background-color: var(--cor0);
+        color: white;
+        border-radius: 15px;
+        transition-duration: 0.5s;}
+    
+
+
+
+#fininho{ 
+    max-width: 800px;
+    min-width: 280px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.508);
+    border-bottom-left-radius:10px;
+      border-bottom-right-radius: 10px;
+   
+    font-family: var(--font-destaque);
+margin: auto;
+background-color: white;
+margin-bottom:10px ;
+}
+
+        p{margin: 15px 5px;
+            text-indent: 30px;
+            text-align: justify;
+            line-height: 1.2em;
+
+        }
+        section>p{}
+
+        footer{background-color: green;
+        margin: 10px 0px 0px 0px; color: white;
+    text-align: center;}
+        footer a {
+            text-decoration: solid;
+            color: white;
+            background-image: linear-gradient(to bottom, var(--cor5), green) ;
+        }
+        footer a:hover{
+            color: black;
+            background-color: white;
+            border-radius: 10px;
+            transition-duration: 0.5s;
+
+        }
+
+        #idmarginal{color: white;}
